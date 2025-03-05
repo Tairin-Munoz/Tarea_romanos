@@ -8,5 +8,10 @@ describe("Conversión de números decimales a romanos", () => {
     it("Convierte 2 a 'II'", () => {
         expect(decimalARomano(2)).toEqual("II");
     });
+
+    it("Convierte 5 a 'V'", () => {
+        expect(decimalARomano(5)).toEqual("V");
+    });
+    
     
 });
