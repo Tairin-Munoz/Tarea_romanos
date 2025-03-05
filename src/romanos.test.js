@@ -13,5 +13,9 @@ describe("Conversión de números decimales a romanos", () => {
         expect(decimalARomano(5)).toEqual("V");
     });
     
+    it("Convierte 7 a 'VII'", () => {
+        expect(decimalARomano(7)).toEqual("VII");
+    });
+    
     
 });
