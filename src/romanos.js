@@ -1,6 +1,10 @@
 function decimalARomano(numero) {
-    if (numero === 1) return "I";
-    if (numero === 2) return "II";
+    let resultado = "";
+    while (numero > 0) {
+        resultado += "I";
+        numero--;
+    }
+    return resultado;
 }
 
 export default decimalARomano;
